@@ -24,4 +24,4 @@ Vous devez entrer la valeur correspondante aux choix donnés, si vous entrez une
   <li>Si c'est le choix 2, un message sera afficher vous disant que le programme n'est pas finis car nous avions eu des problèmes lors du codage et donc nous avons laissé le code en commentaire</li>
   <li>Enfin, si c'est le 3 choix, le programme se ferme</li></ul>
   </p>
-# Bon Jeu !
+Bon Jeu !
