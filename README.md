@@ -21,7 +21,7 @@
 Vous devez entrer la valeur correspondante aux choix donnés, si vous entrez une autre valeur que "3", par exemple "6516" ou "0", le programme se fermera automatiquement et si vous écrivez des caractères alors un message sera affiché vous disant de écrire un bonne valeur.</p>
 <p><ul>Les choix :
   <li>Si c'est le choix 1, vous allez être enmener sur le mode versus avec un possibilité de voter les maps.</li>
-  <li>Si c'est le choix 2, un message sera afficher vous disant que le programme n'est pas finis car nous avions eu des problèmes lors du codage et donc nous avons laissé le code en commentaire</li>
-  <li>Enfin, si c'est le 3 choix, le programme se ferme</li></ul>
+  <li>Si c'est le choix 2, un message sera afficher vous disant que le programme n'est pas finis car nous avions eu des problèmes lors du codage et donc nous avons laissé le code en commentaire.</li>
+  <li>Enfin, si c'est le 3 choix, le programme se ferme.</li></ul>
   </p>
 Bon Jeu !
