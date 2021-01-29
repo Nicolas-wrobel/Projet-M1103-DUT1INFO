@@ -1,0 +1,99 @@
+\hypertarget{game_8h}{}\doxysection{Correc\+\_\+\+Prof/game.h File Reference}
+\label{game_8h}\index{Correc\_Prof/game.h@{Correc\_Prof/game.h}}
+
+
+Set of usefull functions for the game.  
+
+
+{\ttfamily \#include \char`\"{}type.\+h\char`\"{}}\newline
+Include dependency graph for game.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{game_8h_a5b4ac3ec52e7ac4897c510187afcc413}{Move\+Token}} (\mbox{\hyperlink{type_8h_a64a592133575ccebb1b36453acbec02b}{C\+Mat}} \&Mat, const char \&Move, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Pos)
+\begin{DoxyCompactList}\small\item\em Move the current token according to the character in the 2nd parameter. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{game_8h_a0b1d64ee76933ef8f007f1208cb869a7}{ppal}} ()
+\begin{DoxyCompactList}\small\item\em new main \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Set of usefull functions for the game. 
+
+coeur du jeu
+
+Programme principal.
+
+\begin{DoxyAuthor}{Author}
+Alain Casali 
+
+Marc Laporte 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+18 décembre 2018
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Nicolas Wrobel 
+
+Bénigne Demetz 
+
+Gwendal Besnard 
+
+Thibaud Melano 
+
+Manaud Calixte 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+22 janvier 2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{game_8h_a5b4ac3ec52e7ac4897c510187afcc413}\label{game_8h_a5b4ac3ec52e7ac4897c510187afcc413}} 
+\index{game.h@{game.h}!MoveToken@{MoveToken}}
+\index{MoveToken@{MoveToken}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{MoveToken()}{MoveToken()}}
+{\footnotesize\ttfamily void Move\+Token (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{type_8h_a64a592133575ccebb1b36453acbec02b}{C\+Mat}} \&}]{Mat,  }\item[{const char \&}]{Move,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Pos }\end{DoxyParamCaption})}
+
+
+
+Move the current token according to the character in the 2nd parameter. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in,out}}  & {\em Mat} & the matrix before and after the move \\
+\hline
+\mbox{\texttt{ in}}  & {\em Move} & the key pressed by the user \\
+\hline
+\mbox{\texttt{ in,out}}  & {\em Pos} & the player\textquotesingle{}s position before and after the move \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file game.\+cpp.
+
+\mbox{\Hypertarget{game_8h_a0b1d64ee76933ef8f007f1208cb869a7}\label{game_8h_a0b1d64ee76933ef8f007f1208cb869a7}} 
+\index{game.h@{game.h}!ppal@{ppal}}
+\index{ppal@{ppal}!game.h@{game.h}}
+\doxysubsubsection{\texorpdfstring{ppal()}{ppal()}}
+{\footnotesize\ttfamily int ppal (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+new main 
+
+\begin{DoxyReturn}{Returns}
+0 if everything is OK 
+\end{DoxyReturn}
+
+
+Definition at line 61 of file game.\+cpp.
+

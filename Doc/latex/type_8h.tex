@@ -1,0 +1,92 @@
+\hypertarget{type_8h}{}\doxysection{Correc\+\_\+\+Prof/type.h File Reference}
+\label{type_8h}\index{Correc\_Prof/type.h@{Correc\_Prof/type.h}}
+
+
+Definition of usefull types or aliases for the project.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+Include dependency graph for type.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_c_my_param}{C\+My\+Param}}
+\begin{DoxyCompactList}\small\item\em Struct containing all the game\textquotesingle{}s parameters. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_authorized_key}{Authorized\+Key}}
+\begin{DoxyCompactList}\small\item\em Struct containing all the authorized keys in the struct \mbox{\hyperlink{struct_c_my_param}{C\+My\+Param}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{type_8h_af4d6ac508b164138028e81737c7be8a2}\label{type_8h_af4d6ac508b164138028e81737c7be8a2}} 
+typedef std\+::vector$<$ char $>$ \mbox{\hyperlink{type_8h_af4d6ac508b164138028e81737c7be8a2}{C\+V\+Line}}
+\begin{DoxyCompactList}\small\item\em C\+V\+Line \+: alias to a line of the matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{type_8h_a64a592133575ccebb1b36453acbec02b}\label{type_8h_a64a592133575ccebb1b36453acbec02b}} 
+typedef std\+::vector$<$ \mbox{\hyperlink{type_8h_af4d6ac508b164138028e81737c7be8a2}{C\+V\+Line}} $>$ \mbox{\hyperlink{type_8h_a64a592133575ccebb1b36453acbec02b}{C\+Mat}}
+\begin{DoxyCompactList}\small\item\em C\+Mat \+: alias to a game grid type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{type_8h_a7035b1162647d49def2c24ac2c2e30c1}\label{type_8h_a7035b1162647d49def2c24ac2c2e30c1}} 
+typedef std\+::pair$<$ unsigned, unsigned $>$ \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}}
+\begin{DoxyCompactList}\small\item\em C\+Position \+: a pair gathering the coordinates in the grid. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{type_8h_aeb6b858f886b8520a7f220b3de0bef1a}\label{type_8h_aeb6b858f886b8520a7f220b3de0bef1a}} 
+const \mbox{\hyperlink{struct_authorized_key}{Authorized\+Key}} \mbox{\hyperlink{type_8h_aeb6b858f886b8520a7f220b3de0bef1a}{K\+Authorized\+Key}}
+\begin{DoxyCompactList}\small\item\em K\+Authorized\+Key. \end{DoxyCompactList}\item 
+const std\+::map$<$ std\+::string, std\+::string $>$ \mbox{\hyperlink{type_8h_ac2178f299fb60a3a19c00006603770ec}{K\+Color}}
+\begin{DoxyCompactList}\small\item\em K\+Color \+: map between the \char`\"{}human\char`\"{} color and its correspondence for the Unix terminal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{type_8h_a1e3f1938007c41f107a8118778f8d08e}\label{type_8h_a1e3f1938007c41f107a8118778f8d08e}} 
+const char \mbox{\hyperlink{type_8h_a1e3f1938007c41f107a8118778f8d08e}{K\+Empty}} = \textquotesingle{} \textquotesingle{}
+\begin{DoxyCompactList}\small\item\em K\+Empty \+: character for an empty cell. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definition of usefull types or aliases for the project. 
+
+\begin{DoxyAuthor}{Author}
+Alain Casali 
+
+Marc Laporte 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+18 décembre 2018 
+\end{DoxyDate}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{type_8h_ac2178f299fb60a3a19c00006603770ec}\label{type_8h_ac2178f299fb60a3a19c00006603770ec}} 
+\index{type.h@{type.h}!KColor@{KColor}}
+\index{KColor@{KColor}!type.h@{type.h}}
+\doxysubsubsection{\texorpdfstring{KColor}{KColor}}
+{\footnotesize\ttfamily const std\+::map$<$std\+::string, std\+::string$>$ K\+Color}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KReset"}, \textcolor{stringliteral}{"0"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KBlack"}, \textcolor{stringliteral}{"30"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KRed"}, \textcolor{stringliteral}{"31"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KGreen"}, \textcolor{stringliteral}{"32"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KYellow"}, \textcolor{stringliteral}{"33"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KBlue"}, \textcolor{stringliteral}{"34"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KMAgenta"}, \textcolor{stringliteral}{"35"}\},}
+\DoxyCodeLine{  \{\textcolor{stringliteral}{"KCyan"}, \textcolor{stringliteral}{"36"}\},}
+\DoxyCodeLine{}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+K\+Color \+: map between the \char`\"{}human\char`\"{} color and its correspondence for the Unix terminal. 
+
+
+
+Definition at line 66 of file type.\+h.
+

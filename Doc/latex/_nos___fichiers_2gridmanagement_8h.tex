@@ -1,0 +1,142 @@
+\hypertarget{_nos___fichiers_2gridmanagement_8h}{}\doxysection{Nos\+\_\+\+Fichiers/gridmanagement.h File Reference}
+\label{_nos___fichiers_2gridmanagement_8h}\index{Nos\_Fichiers/gridmanagement.h@{Nos\_Fichiers/gridmanagement.h}}
+
+
+Set of usefull functions for the grid management.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}detail.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$termios.\+h$>$}\newline
+Include dependency graph for gridmanagement.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_a9315302ef25951403dd96c8398c652be}\label{_nos___fichiers_2gridmanagement_8h_a9315302ef25951403dd96c8398c652be}} 
+void {\bfseries Clearecran} ()
+\item 
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_a9993507d3536a42d6fd8ff6a8cc9248a}\label{_nos___fichiers_2gridmanagement_8h_a9993507d3536a42d6fd8ff6a8cc9248a}} 
+void {\bfseries Couleur} (const std\+::string \&Col)
+\item 
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_a4832084fadd22015b50ae1560d5497c9}\label{_nos___fichiers_2gridmanagement_8h_a4832084fadd22015b50ae1560d5497c9}} 
+void {\bfseries Display\+Grid} (\mbox{\hyperlink{type_8h_a64a592133575ccebb1b36453acbec02b}{C\+Mat}} \&Mat, const \mbox{\hyperlink{struct_c_my_param}{C\+My\+Param}} \&Params)
+\item 
+void \mbox{\hyperlink{_nos___fichiers_2gridmanagement_8h_a214d86a76d5687f9a7cb3cd0268a7a2f}{Init\+Grid}} (\mbox{\hyperlink{type_8h_a64a592133575ccebb1b36453acbec02b}{C\+Mat}} \&Mat, const \mbox{\hyperlink{struct_c_my_param}{C\+My\+Param}} \&Params, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Pos\+Player1, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Pos\+Player2, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Bounty1, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Bounty2, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Bounty3, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Bounty4, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Bounty5, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Bounty6, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Teleport1, \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Teleport2)
+\begin{DoxyCompactList}\small\item\em Init\+Grid initialise la map et demande aux joueurs de voter un des 4 choix différents. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_af99d8c0775d8c342a142e2be8c2ea592}\label{_nos___fichiers_2gridmanagement_8h_af99d8c0775d8c342a142e2be8c2ea592}} 
+void \mbox{\hyperlink{_nos___fichiers_2gridmanagement_8h_af99d8c0775d8c342a142e2be8c2ea592}{reset\+\_\+input\+\_\+mode}} (void)
+\begin{DoxyCompactList}\small\item\em reset\+\_\+input\+\_\+mode mode canonique \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_a224cd3d46cfe5381606415ce3585b91f}\label{_nos___fichiers_2gridmanagement_8h_a224cd3d46cfe5381606415ce3585b91f}} 
+void \mbox{\hyperlink{_nos___fichiers_2gridmanagement_8h_a224cd3d46cfe5381606415ce3585b91f}{set\+\_\+input\+\_\+mode}} (void)
+\begin{DoxyCompactList}\small\item\em set\+\_\+input\+\_\+mode mode canonique \end{DoxyCompactList}\item 
+\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \mbox{\hyperlink{_nos___fichiers_2gridmanagement_8h_aec71e164375f575971801b600b870e5a}{teleporter}} (\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&Pos\+Player1, const \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&teleport1, const \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&teleport2)
+\begin{DoxyCompactList}\small\item\em teleporter fonction permettant de téléporter \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Set of usefull functions for the grid management. 
+
+\begin{DoxyAuthor}{Author}
+Nicolas Wrobel 
+
+Bénigne Demetz 
+
+Gwendal Besnard 
+
+Thibaud Melano 
+
+Manaud Calixte 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+22 janvier 2021
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Alain Casali 
+
+Marc Laporte 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+18 décembre 2018 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_a214d86a76d5687f9a7cb3cd0268a7a2f}\label{_nos___fichiers_2gridmanagement_8h_a214d86a76d5687f9a7cb3cd0268a7a2f}} 
+\index{gridmanagement.h@{gridmanagement.h}!InitGrid@{InitGrid}}
+\index{InitGrid@{InitGrid}!gridmanagement.h@{gridmanagement.h}}
+\doxysubsubsection{\texorpdfstring{InitGrid()}{InitGrid()}}
+{\footnotesize\ttfamily void Init\+Grid (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{type_8h_a64a592133575ccebb1b36453acbec02b}{C\+Mat}} \&}]{Mat,  }\item[{const \mbox{\hyperlink{struct_c_my_param}{C\+My\+Param}} \&}]{Params,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Pos\+Player1,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Pos\+Player2,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Bounty1,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Bounty2,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Bounty3,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Bounty4,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Bounty5,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Bounty6,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Teleport1,  }\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Teleport2 }\end{DoxyParamCaption})}
+
+
+
+Init\+Grid initialise la map et demande aux joueurs de voter un des 4 choix différents. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Mat} & \\
+\hline
+{\em Params} & \\
+\hline
+{\em Pos\+Player1} & \\
+\hline
+{\em Pos\+Player2} & \\
+\hline
+{\em Bounty1} & \\
+\hline
+{\em Bounty2} & \\
+\hline
+{\em Bounty3} & \\
+\hline
+{\em Bounty4} & \\
+\hline
+{\em Bounty5} & \\
+\hline
+{\em Bounty6} & \\
+\hline
+{\em Teleport1} & \\
+\hline
+{\em Teleport2} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file grid.\+cpp.
+
+\mbox{\Hypertarget{_nos___fichiers_2gridmanagement_8h_aec71e164375f575971801b600b870e5a}\label{_nos___fichiers_2gridmanagement_8h_aec71e164375f575971801b600b870e5a}} 
+\index{gridmanagement.h@{gridmanagement.h}!teleporter@{teleporter}}
+\index{teleporter@{teleporter}!gridmanagement.h@{gridmanagement.h}}
+\doxysubsubsection{\texorpdfstring{teleporter()}{teleporter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} teleporter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{Pos\+Player1,  }\item[{const \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{teleport1,  }\item[{const \mbox{\hyperlink{type_8h_a7035b1162647d49def2c24ac2c2e30c1}{C\+Position}} \&}]{teleport2 }\end{DoxyParamCaption})}
+
+
+
+teleporter fonction permettant de téléporter 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pos\+Player1} & \\
+\hline
+{\em teleport1} & \\
+\hline
+{\em teleport2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nouvelle position du joueur 
+\end{DoxyReturn}
+
+
+Definition at line 204 of file grid.\+cpp.
+
