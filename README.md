@@ -16,7 +16,7 @@
 ## Programme
 <p><ul>Tous d'abord, quand vous lancez le programme un menu s'affiche avec plusieurs choix :
   <li> 1. Mode versus (1vs1)</li>
-  <li> 2. Mode solo </li>
+  <li> 2. Mode solo (non implémenté)</li>
   <li> 3. Quitter </li> </ul>
 Vous devez entrer la valeur correspondante aux choix donnés, si vous entrez une autre valeur que "3", par exemple "6516" ou "0", le programme se fermera automatiquement et si vous écrivez des caractères alors un message sera affiché vous disant de écrire un bonne valeur.</p>
 <p><ul>Les choix :
